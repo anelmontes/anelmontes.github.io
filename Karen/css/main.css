@@ -1,0 +1,196 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ESTILOS DE NAV*/
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+
+}
+
+header nav {
+    display: flex;
+/*--justificar a la derecha*/
+    justify-content: flex-end;
+}
+
+header nav .nav-rigth-section {
+    list-style: none;
+    /*propiedad flex para que sea responsivo y flexible*/
+    display: flex;
+    justify-content: center;
+/*Centrado verticalmente*/
+    align-items: center;
+    width: 250px;
+    height: auto;
+}
+
+a {
+    /*quita la linea de abajo*/
+    text-decoration: none;
+    /*Cambia el cursor a un pointer*/
+    cursor: pointer;
+}
+
+nav .nav-rigth-section a {
+     margin-right: 10px;
+    
+}
+
+
+nav .nav-rigth-section .menu {
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    /*Pone el tamaño del icono lo máx posible*/
+    background-size: contain;
+}
+
+nav .nav-rigth-section img {
+    border-radius: 60px;
+    margin-left: 40px;
+    width: 30px;
+    height: 30px;
+}
+/*BUSCADOR*/
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    height: 120px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    border: none;
+    /*editar tamaño?*/
+    width: 530px;
+    margin: 40 auto;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0px #20212447; 
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url("https://seekicon.com/free-icon-download/search_20.svg");
+    /*evitar repeticiones*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+    padding-left: 6%;
+}
+
+main .main-input .micro-icon {
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+width: 18px;
+height: 18px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+padding-left: 1%;
+}
+
+main .main-input .cam-icon {
+    background-image: url("https://cdn.discordapp.com/attachments/1078439993271398553/1091819945328914512/lens.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-right: 8%;
+}
+    
+    main .main-buttons {
+        width: 530px;
+        margin: 0 auto;
+    }
+
+    main .main-buttons div {
+        display: inline-block;
+      
+    }
+    
+    main .main-buttons button {
+        height: 36px;
+        background-color: #f8f9fa;
+        border: 0;
+        font-size: 14px;
+        color: #3c4043;
+        border-radius: 4px;
+        padding: 0;
+        margin-right: 15px;
+    }
+
+    main .main-buttons :hover {
+        box-shadow: 0 1px 1px  rgb(0, 0, 0,.1);
+        border: 1px solid #c6c6c6;
+        color:#3c4043;
+        cursor: pointer;
+    }
+
+    /*FOOTER*/
+    footer {
+        background-color: #f2f2f2;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        font-size: 13px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        border-top: 1px solid #e4e4e4;
+        bottom: 0;
+    }
+
+    footer ul {
+        margin: 10px;
+        list-style: none;
+        display: flex;
+        padding-left: 0px;
+    }
+
+    footer ul li a{
+        margin: 10px;
+    }
+
+    footer .footer-left {
+        justify-self: left;
+    }
+
+    footer .footer-right {
+        justify-self: right;
+    }
