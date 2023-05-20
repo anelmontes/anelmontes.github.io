@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    image.png
+ 
+
+    <h1>M primer página web</h1>
+    <h3>Subtitulo</h3>
+    <p>Párrafo</p>
+    <img src="aquí va el link" alt="aquí va la descripción">
+    <p>insertar link en texto <a href="aquí va el link"></a></p>
+
+    <ol class="lista-de-gatos ">
+        <li>gato 1</li>
+        <li>gato 2</li>
+        <li>gato 3</li>
+    </ol>
+
+    <!--h1 sirve para poner el título de nuestro programa-->
+    <h1>Mi primera página web sobre gatos</h1>
+    <h3>Algo sobre gatos</h3>
+    <p>El gato doméstico, llamado más comúnmente gato, y de forma coloquial minino, michino, michi, micho, mizo, miz, morroño o morrongo, y algunos nombres más, es un mamífero carnívoro de la familia Felidae.</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs4ehadzCQF_beigURWeJ74hthFgCGsJZ73Q&usqp=CAU" alt="Varios gatos juntos">
+    <img src="imagenes/gatoscomiendo.jpg" alt="Gatos comiendo">
+    <p>Da click aquí <a href="https://www.purina-latam.com/mx/purina/nota/gatos/datos-curiosos-sobre-gatos" target="_blank" rel="noperer noreferrer">para ver más sobre gatos</a></p> 
+    <a href="#parrafo-1">Tipos de gatos</a>
+    <br>
+    <a href="#parrafo-2">Colores tipicos de gatos</a>
+    <br>
+    <a href="#parrafo-3">Alimento que comen los gatos</a>
+    
+    <h3 id="parrafo-1">Tipos de gatos</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt animi reiciendis corporis officiis provident obcaecati, nemo quis? Nesciunt expedita dolorum beatae cum est nemo fuga. Assumenda quis beatae magni!</p>
+    <hr>
+    <h3 id="parrafo-2">Colores tipicos de gatos</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laboriosam ab pariatur ad, illum nobis cupiditate nisi voluptatem natus unde temporibus, sit rem. Quae doloremque quidem delectus porro nulla odio.</p>
+    <hr>
+    <h3 id="parrafo-3">Alimento que comen los gatos</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste commodi ex incidunt voluptas? Voluptatibus et quam culpa voluptatum cumque quas error saepe perspiciatis adipisci quos eius, quasi amet aliquam consequatur.</p>
+    <P>Para saber más sobre gatos <a href="#" rel="noperer noreferrer">da click aquí </a></P>
+    <a href="https://www.hogarmania.com/mascotas/cinco-razones-para-adoptar-gato-negro.html" target="_blank"><img src="imagenes/gatoscomiendo.jpg" alt="Gatos comiendo"></a>
+    <br>
+    <h3>Cosas que los gatos aman</h3>
+    <ul>
+        <li>Jugar</li>
+        <li>Comida</li>
+        <li>Salir a la calle</li>
+    </ul>
+    <p>Cosas que los gatos <strong>odian</strong></p>
+    <ol>
+    <li><em>Agua</em></li>
+        <li><s>Perros</s></li>
+        <li>Besos</li>
+    </ol>
+    <hr>
+     <!--Formulario-->
+     <form action="/enviar-respuesta">
+        <!--Texto y botón enviar-->
+        <input type="text" placeholder="URL de la foto de tu gato" required>
+        <br>
+        <button type="submit">Enviar</button>
+        <!--Botones de radio-->
+        <p>¿Tu gato es cachorro o adulto?</p>
+        <label for="cachorro">
+            <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro
+        </label>
+        <br>
+        <label for="adulto">
+            <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+        </label>
+        <br>
+        <!--Casillas de verificación-->
+        <p>¿Qué tipo de gato es el tuyo?</p>
+        <label for="carinoso">
+            <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked> Cariñoso
+        </label>
+        <br>
+        <label for="perezoso">
+            <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"> Perezoso
+        </label>
+        <br>
+        <label for="energico">
+            <input id="energico" type="checkbox" value="energico" name="personalidad"> Enérgico
+        </label>
+        <br>
+        <h3>Lista de tipos de gatos</h3>  
+      <ol class="tipos-de-gatos">
+        <li>Carey</li>
+        <li>Egipcio</li>
+        <li>Siames</li>
+        <li>Bombai</li>
+      </ol>
+      <p id="CURP">CURP</p>
+        <footer>
+            <!--Etiqueta small para que el pie de página se vea más pequeño-->
+            <p><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">tecnolochicas.mx</a></small></p>
+        </footer>
+
+</body>
+</html>
+
+
