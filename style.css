@@ -1,0 +1,33 @@
+*{
+    font-family: "Outfit", sans-serif;
+}
+header{
+    background-color: #173B45;
+ 
+}
+header span{
+    color: #F8EDED;
+}
+.nav-item a{
+    color: #F8EDED;
+}
+/* Link visitado*/
+.nav-item a:visited{
+    color: #F8EDED;
+}
+.nav-item a:hover{
+    color: #FF8225;
+}
+#nav-butoon{
+    background-color: #FF8225;
+}
+.bi{
+    color: #B43F3F;
+    font-size: 2em;
+}
+.img-proyecto1{
+    background-image: url('/assets/clonpinterest.png');
+    opacity: 0.6;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
