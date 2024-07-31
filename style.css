@@ -21,7 +21,7 @@ header span{
 #nav-butoon{
     background-color: #FF8225;
 }
-.bi{
+.icon-habilidades{
     color: #B43F3F;
     font-size: 2em;
 }
@@ -30,4 +30,18 @@ header span{
     opacity: 0.6;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+footer{
+    background-color: #B43F3F;
+}
+ 
+footer .icon-footer i{
+    color: #F8EDED;
+}
+footer p{
+    color: #F8EDED;
+}
+footer p a{
+    color: #F8EDED;
 }
