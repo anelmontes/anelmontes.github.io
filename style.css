@@ -1,50 +1,61 @@
 *{
-    font-family: "Outfit", sans-serif;
+    font-family: "Parkinsans", sans-serif;
 }
 header{
-    background-color: #173B45;
- 
+    background-color: #490a3d;
 }
-header span{
-    color: #F8EDED;
+header a{
+    color: #8a9b0f;
 }
 .nav-item a{
-    color: #F8EDED;
+    color: #8a9b0f;
 }
-/* Link visitado*/
-.nav-item a:visited{
-    color: #F8EDED;
+#boton-perfil{
+    background-color: #8a9b0f;
 }
 .nav-item a:hover{
-    color: #FF8225;
-}
-#nav-butoon{
-    background-color: #FF8225;
-}
-.icon-habilidades{
-    color: #B43F3F;
-    font-size: 2em;
-}
-.img-proyecto1{
-    background-image: url('/assets/clonpinterest.png');
-    opacity: 0.6;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-footer{
-    background-color: #B43F3F;
-}
- 
-footer .icon-footer i{
-    color: #F8EDED;
-}
-footer p{
-    color: #F8EDED;
-}
-footer p a{
-    color: #F8EDED;
+    color: #88baa3;
 }
 #app{
-    color: #B43F3F;
+    color: #ba1e4a;
+}
+.boton-cv{
+    background-color: #8a9b0f;
+    color: #e4e6c3;
+}
+.caja-habilidades{
+    background-color: #63203d;
+    color: #e4e6c3;
+}
+.btn-proyecto{
+    background-color: #ba1e4a;
+}
+.btn-proyecto a{
+    text-decoration: none;
+    color: #e4e6c3;
+}
+.card .card-title{
+    color: #63203d;
+}
+#contacto{
+    background-color: #88baa3;
+    color: #63203d;
+}
+#btn-contacto{
+    background-color: #8a9b0f;
+    color: #e4e6c3;
+}
+#btn-contacto:hover{
+    background-color: #63203d;
+}
+footer ul li a .bi{
+    color: #ba1e4a;
+}
+footer p{
+    color: #ba1e4a;
+}
+footer p a{
+    text-decoration: none;
+    color: #361f2d;
+    
 }
